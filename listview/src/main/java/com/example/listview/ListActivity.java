@@ -47,11 +47,11 @@ public class ListActivity extends Activity {
             if(convertView==null){
 //                新建一个view对象，可用过打气筒把一个布局资源转换成一个view对象
 //                 resource 就是我们定义的布局
-//                获取打气筒
+//             **   获取打气筒
                 view = View.inflate(getApplicationContext(), R.layout.item, null);
-// 第二种打气筒
-//  LayoutInflater.from(getApplicationContext()).inflate(R.layout.item,null);
-//                第三种打气筒
+//       ** 第二种打气筒
+//       LayoutInflater.from(getApplicationContext()).inflate(R.layout.item,null);
+//             **   第三种打气筒
                 LayoutInflater inflater= (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
                inflater.inflate(R.layout.item,null);
             }else {
