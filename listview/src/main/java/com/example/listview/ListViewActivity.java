@@ -47,6 +47,9 @@ public class ListViewActivity extends Activity {
         public View getView(int position, View convertView, ViewGroup parent) {
 
             System.out.println("getiview  --"+position);
+            /*
+            listview 的优化
+            */
             if(convertView==null){
                 tv = new TextView(ListViewActivity.this);
             }else {
